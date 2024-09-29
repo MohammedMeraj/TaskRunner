@@ -18,7 +18,7 @@ export default function Home() {
   }
 
   const deleteHandler = (i: number) => {
-    let allTask = [...mainTask];
+    const allTask = [...mainTask];
     allTask.splice(i, 1);
     setMaintask(allTask);
   }
