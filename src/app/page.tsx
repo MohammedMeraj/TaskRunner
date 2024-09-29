@@ -47,7 +47,7 @@ export default function Home() {
 
   return (
     <div className="mt-10 sm:mx-24 mx-4">
-      <div className="text-4xl text-gray-800 font-bold">Todo List</div>
+      <div className="text-4xl text-gray-800 font-bold">Task Runner</div>
       <form onSubmit={stHandle} className="w-full h-fit mt-6 flex flex-col justify-center items-center mb-12">
         <input
           className="w-[90%] sm:w-[600px] min-[200px] mb-2 outline-none p-2 pl-5 border border-black rounded-md"
